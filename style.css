@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-size: 18px;
+}
+
+h1 {
+    color: hsl(192, 100%, 9%);
+
+    font-family: 'Poppins';
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+
+h2 {
+    color: hsl(192, 100%, 9%);
+
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p {
+    color: hsl(208, 11%, 55%);
+
+    font-family: 'Open Sans';
+    font-size: 1.1rem;
+}
+
+
+.intro {
+    background-color: hsl(193, 100%, 96%);
+    background-image: url('bg-hero-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    padding: 3rem 20rem;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.header-bar {
+    display: flex;
+    align-items: center;
+}
+
+.try-it-free-btn {
+    border: none;
+    border-radius: 25px;
+
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.1);
+
+    color: hsl(192, 100%, 9%);
+    background-color: hsl(0, 0%, 100%);
+
+    margin-left: auto;
+    padding: 0.5rem 3rem;
+
+    font-size: 1rem;
+    font-weight: 650;
+}
+
+.try-it-free-btn:hover {
+    cursor: pointer;
+
+    color: hsl(208, 11%, 55%);
+
+    font-size: 0.8rem;
+}
+
+.statement {
+    display: flex;
+
+    margin-top: 9rem;
+}
+
+.mission {
+    width: 45%;
+
+    margin-bottom: 3rem;
+}
+
+.get-started-free {
+    border: none;
+    border-radius: 25px;
+
+    padding: 1rem 4rem;
+
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.get-started-free:hover {
+    cursor: pointer;
+
+    background-color: hsl(322, 100%, 76%);
+}
+
+.mockup {
+    margin-left: auto;
+
+    width: 50%;
+}
+
+.features {
+    padding: 3rem 20rem;
+
+    margin-bottom: 10rem;
+}
+
+.f1,
+.f2,
+.f3 {
+    display: flex;
+    align-items: center;
+
+    padding: 4rem;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.075);
+
+    box-sizing: border-box;
+
+    margin-bottom: 2rem;
+}
+
+.f1-about,
+.f2-about,
+.f3-about {
+    width: 50%;
+}
+
+.grow-tger,
+.flow-conv,
+.your-usrs {
+    width: 30%;
+
+    margin-left: auto;
+}
+
+.flow-conv {
+    margin-left: 0;
+}
+
+.f2-about {
+    margin-left: auto;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+
+    padding: 3rem 20rem;
+}
+
+.ready-card-ctr {
+    padding: 3rem 20rem;
+}
+
+.ready-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(0, 0%, 100%);
+
+    border-radius: 20px;
+
+    padding: 1rem 10rem;
+
+    text-align: center;
+
+    transform: translateY(50%);
+
+    width: 40%;
+
+    margin: auto;
+
+    box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.1);
+}
+
+.more {
+    display: flex;
+}
+
+
+footer .logo {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.info {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans';
+    font-size: 0.9rem;
+
+    line-height: 1.5rem;
+
+    margin-top: 0;
+    margin-left: 1rem;
+}
+
+.contact {
+    width: 30%;
+}
+
+.contact img {
+    width: auto;
+    height: 16px;
+
+    margin-top: 5px;
+}
+
+.location,
+.phone,
+.email {
+    display: flex;
+}
+
+.links {
+    display: flex;
+
+    margin-left: 5rem;
+}
+
+.links .info:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.top-and-right {
+    margin-right: 10rem;
+}
+
+.socials-copyright {
+    margin-top: 1.5rem;
+    margin-left: auto;
+    align-self: normal;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials-copyright img {
+    margin-right: 0.8rem;
+}
+
+.socials-copyright img:hover {
+    cursor: pointer;
+    background-color: hsl(322, 100%, 66%);
+}
+
+
+.copyright {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans';
+    font-size: 0.8rem;
+
+    margin-top: 8rem;
+}
+
+
+/* responsive */
+
+@media only screen and (width <=1000px) {
+
+    .intro,
+    .features,
+    .ready-card-ctr,
+    footer {
+        padding: 2rem 1rem;
+    }
+
+    .try-it-free-btn {
+        padding: 0.3rem 1rem;
+    }
+
+    .statement {
+        margin-top: 5rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mission {
+        text-align: center;
+
+        margin-bottom: 1rem;
+
+        width: 85%;
+    }
+
+    .goal {
+        font-size: 1.5rem;
+    }
+
+    .about {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .mockup {
+        margin-top: 1.5rem;
+        margin-left: 0;
+
+        width: 80%;
+    }
+
+    .f1,
+    .f2,
+    .f3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 4rem 2rem;
+    }
+
+    .f1-about,
+    .f2-about,
+    .f3-about {
+        order: 2;
+
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .grow-tger,
+    .flow-conv,
+    .your-usrs {
+        order: 1;
+
+        width: 70%;
+    }
+
+    .abt-head {
+        font-size: 1.3rem;
+    }
+
+    .abt-des {
+        font-size: 0.9rem;
+    }
+
+    .f2-about {
+        margin-left: 0;
+    }
+
+    .grow-tger,
+    .flow-conv,
+    .your-usrs {
+        margin-left: 0;
+    }
+
+    .ready-card {
+        padding: 1rem 2rem;
+
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+    .ready-card h2 {
+        font-size: 1.2rem;
+    }
+
+    .more {
+        flex-direction: column;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .links {
+        flex-direction: column;
+        
+        margin-top: 1.5rem;
+    }
+
+    .links .info {
+        margin-left: 0;
+    }
+
+    .links, .socials-copyright {
+        margin-left: 0;
+    }
+
+    .copyright {
+        margin-top: 1.5rem;
+    }
+}
